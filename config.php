@@ -1,8 +1,8 @@
 <?php
-$host = "database-1.caubbk7qzzzx.us-east-1.rds.amazonaws.com"; // or your DB host
+$host = getenv('DB_HOST');
+$username = getenv('DB_USER');
+$password = getenv('DB_PASS');
 $dbname = "userdb";
-$username = "admin"; // your DB username
-$password = "admin1234"; // your DB password
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
