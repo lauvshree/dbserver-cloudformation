@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="container">
         <h1 class="text-center my-4">User Management System</h1>
-        
+        <a target="_blank" href="/load.php">Add a load on the server</a>
         <div class="row">
             <!-- Add User Card -->
             <div class="col-md-6 mb-4">
