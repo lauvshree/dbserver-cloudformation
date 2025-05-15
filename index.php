@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="container">
         <h1 class="text-center my-4">User Management System</h1>
-        <a target="_blank" href="/load.php">Add a load on the server</a>
         <div class="row">
             <!-- Add User Card -->
             <div class="col-md-6 mb-4">
@@ -109,6 +108,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
     </div>
+    <br/>
+    <a target="_blank" href="/load.php"><input type="button" value="Add load on the server"/></a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
